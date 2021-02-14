@@ -1,0 +1,93 @@
+<!--Exercice recette gateau chocolat-->
+
+<!DOCTYPE html> 
+<html lang="fr">
+
+<head>
+    <title>Gateau au chocolat</title> 
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="Recette.css"/> <!-- Permet de charger le fichier CSS comprenant tout le style -->
+</head>
+
+
+
+
+<!-- Propriété Display 
+Display block (de base pour les paragraphes)
+display inline (les uns à la suite des autres mais ne permet pas de gérer certaines marges)
+display inline-block (plus de controle que inline seul)
+-->
+
+<body>
+   
+    <div class = "contenu">
+
+
+            <div class= "centre categorie">
+                <p class="categorie">Recette</p>
+                </div>
+            
+            <h1>Gateau au chocolat</h1>
+
+                <div class = ligne> 
+                </div>
+
+
+
+            <div class= "centre">
+                <p class= "description">"Cette recette du gateau au chocolat est un grand classique. Elle fera plaisir aux plus gourmands !"</p>
+            </div>
+
+
+            <div class = "info"> <!-- Pour regrouper et pouvoir superposer l'image et la table, on les regroupe dans une div.-->
+                <img class= "centre info" style="display: block;" src="gateau.jpg">
+
+                <table class ="info">
+                    <tr>
+                        <th>Difficulté</th>
+                        <th>Préparation</th>
+                        <th>Temps de cuisson</th>
+                        <th>Temps total</th>
+                    </tr>  
+                <tr>
+                    <td>Facile</td>
+                    <td>10 min</td>
+                    <td>25 min</td>
+                    <td>35 min</td>
+                </tr>
+                </table>
+            </div>
+
+        <br>
+
+
+        <div>
+            <div class="colonne1 colonne">
+                <h2>Ingrédients</h2>
+                <div class = "ingredients">
+                    <p>Chocolat noir : 200g</p>
+                    <p>Sucre : 50g</p>
+                    <p>Beurre : 200g</p>
+                    <p>Oeuf : 4</p>
+                    <p>Farine : 90g</p>
+                </div>
+            </div>
+
+            <div class="colonne2 colonne">
+                <h2>Préparation</h2>
+
+                <table class = "prepa">
+                
+                    <tr><td><p class="numero">1</p></td><td><p class="liste">Faire fondre le chocolat avec le beurre</p></td>
+                    <tr><td><p class="numero">2</p></td><td><p class="liste">Mélanger le sucre, les oeufs et la farine</p></td>
+                    <tr><td><p class="numero">3</p></td><td><p class="liste">Mélanger le tout pour faire une pate</p></td>
+                    <tr><td><p class="numero">4</p></td><td><p class="liste">Mettre au four</p></td>
+
+                </table>
+
+                </table>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
